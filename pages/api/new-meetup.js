@@ -1,11 +1,4 @@
 import { MongoClient } from 'mongodb';
-import  mongoose from 'mongoose'
-
-
-// /api/new-meetup
-// POST /api/new-meetup
-// الداتا الي جيه من الفيتش ريكوتس وبتتخزن في البودي ثم تتحط في الداتا بيز 
-
 
 async function handler(req, res) {
   
